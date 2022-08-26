@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.tareas-container{
+  width: 80%;
+}
+
+input[type='text']{
+  padding: 20px;
+  width: 50%;
+}
+
+input[type="submit"]{
+   padding: 23px;
+   width: 15%;
+   background: green;
+   color: white;
+   font-weight: bold;
+   border: none;
+   margin-left: 10px;
+   border-radius:5px ;
+   cursor: pointer;
+   opacity: 0.8;
+}
+
+input[type="submit"]:hover{
+  opacity: 1;
+}
+
